@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einnovention</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstraps Compiles CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo-white.png" alt="logo" width="180px" id="logo-img">
+                <img src="images/einno-logo.png" alt="logo" width="180px" id="logo-img-1">
+            </div>
+            <nav class="menu">
+                <div class="head">
+                    <div class="logo"><img src="images/logo-white.png" alt="logo" width="180px"></div>
+                    <button type="button" class="close-menu-btn"></button>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Services</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="sub-menu">
+                            <li class="dropdown">
+                                <a href="#"><span>MOBILE APP DEVELOPMENT</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>IPhone App Development</span></a></li>
+                                    <li><a href="#"><span>Android App Development</span></a></li>
+                                    <li><a href="#"><span>Phone Gap Development</span></a></li>
+                                    <li><a href="#"><span>Mobile App Porting</span></a></li>
+                                    <li><a href="#"><span>Custom Application Development</span></a></li>
+                                    <li><a href="#"><span>Hybrid App Development</span></a></li>
+                                    <li><a href="#"><span>Flutter App Development</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>WEB AND CMS DEVELOPMENT</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>PHP</span></a></li>
+                                    <li><a href="#"><span>Larvel</span></a></li>
+                                    <li><a href="#"><span>CakePHP</span></a></li>
+                                    <li><a href="#"><span>Yii FrameWork</span></a></li>
+                                    <li><a href="#"><span>Joomla</span></a></li>
+                                    <li><a href="#"><span>Wordpress</span></a></li>
+                                    <li><a href="#"><span>Drupal</span></a></li>
+                                    <li><a href="#"><span>Codeigniter</span></a></li>
+                                    <li><a href="#"><span>.Net Development</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>IT SERVICES</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Website Designing</span></a></li>
+                                    <li><a href="#"><span>Logo Designing</span></a></li>
+                                    <li><a href="#"><span>Seo Engine Optimization</span></a></li>
+                                    <li><a href="#"><span>Open Source Customization</span></a></li>
+                                    <li><a href="#"><span>Corporate Identity</span></a></li>
+                                    <li><a href="#"><span>Internet Marketing</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>HIRE DEDICATED DEVELOPERS</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Hire Full Stack Developer</span></a></li>
+                                    <li><a href="#"><span>Hire Android App Developer</span></a></li>
+                                    <li><a href="#"><span>Hire Drupal App Developer</span></a></li>
+                                    <li><a href="#"><span>Hire Joomla App Developer</span></a></li>
+                                    <li><a href="#"><span>Hire Unity 3D Developer</span></a></li>
+                                    <li><a href="#"><span>Hair iPad App Developer</span></a></li>
+                                    <li><a href="#"><span>Hire PHP Developer</span></a></li>
+                                    <li><a href="#"><span>Hire Magento Developer</span></a></li>
+                                    <li><a href="#"><span>Hire Cross Platform Developer</span></a></li>
+                                    <li><a href="#"><span>Hire iPhone App Developer</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>MOBILE GAME DEVELOPMENT</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#">Virtual Reality Game Development<span></span></a></li>
+                                    <li><a href="#"><span>iphone Game Development</span></a></li>
+                                    <li><a href="#"><span>Android Game Development</span></a></li>
+                                    <li><a href="#"><span>Unity 3D Game Development</span></a></li>
+                                    <li><a href="#"><span>Cocos 2D Game Development</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>E-COMMERCE</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Magento</span></a></li>
+                                    <li><a href="#"><span>Prestashop</span></a></li>
+                                    <li><a href="#"><span>Woo Commerce</span></a></li>
+                                    <li><a href="#"><span>Shopify Ecommerce Development Services</span></a></li>
+                                    <li><a href="#"><span>Big Commerce</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#">Solutions</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="sub-menu">
+                            <li class="dropdown">
+                                <a href="#"><span>01</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Rent A Limousine(RAL)</span></a></li>
+                                    <li><a href="#"><span>Content Management System(CMS)</span></a></li>
+                                    <li><a href="#"><span>E-commerce Platform</span></a></li>
+                                    <li><a href="#"><span>Customer Relationship Management(CRM)</span></a></li>
+                                    <li><a href="#"><span>Mobile Application(iOS, Android, etc.)</span></a></li>
+                                    <li><a href="#"><span>Enterprice resource Planning(ERP) Software</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>02</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Petrol Factory Management System(PFM)</span></a></li>
+                                    <li><a href="#"><span>Learning Maanagement System(LMS)</span></a></li>
+                                    <li><a href="#"><span>Project Management Software</span></a></li>
+                                    <li><a href="#"><span>Analytics and Reporting Tools</span></a></li>
+                                    <li><a href="#"><span>HR and Payroll System</span></a></li>
+                                    <li><a href="#"><span>Booking and Reservation System</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>03</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Inventory Management Software</span></a></li>
+                                    <li><a href="#"><span>Social Media Management Tools</span></a></li>
+                                    <li><a href="#"><span>Customer Support and Helpdesk Solutions</span></a></li>
+                                    <li><a href="#"><span>Security Solutions(Firewalls, IDS, Authentication,
+                                                etc.)</span></a></li>
+                                    <li><a href="#"><span>Data Backup and Recovery System</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>04</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Marketing Automation Software</span></a></li>
+                                    <li><a href="#"><span>Payment Gateway Integration</span></a></li>
+                                    <li><a href="#"><span>Virtual Reality (VR) and Augmented Reality (AR)
+                                                Solutions</span></a></li>
+                                    <li><a href="#"><span>Internet of Things(IoT) Applications</span></a></li>
+                                    <li><a href="#"><span>Customizable website Template</span></a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Courses</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <ul class="sub-menu">
+                            <li class="dropdown">
+                                <a href="#"><span>01</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Frontened Development</span></a></li>
+                                    <li><a href="#"><span>Backened Development</span></a></li>
+                                    <li><a href="#"><span>Full Stack Development</span></a></li>
+                                    <li><a href="#"><span>MERN Stack</span></a></li>
+                                    <li><a href="#"><span>Graphic designing</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>02</span></a>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="sub-menu sub-menu-right">
+                                    <li><a href="#"><span>Web Development</span></a></li>
+                                    <li><a href="#"><span>App Development</span></a></li>
+                                    <li><a href="#"><span>Core PHP</span></a></li>
+                                    <li><a href="#"><span>Laravel</span></a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Free Consultation</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+
+                <button type="button" class="open-menu-btn">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+            </div>
+        </div>
+
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>EINNOVENTION</h1>
+            <p>Analytical approach is used. On the basis of the results our goal is to remove any technical or financial
+                barriers and client satisfaction.</p>
+            <a href="#">Explore</a>
+        </div>
+
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Ranking Start -->
+    <section class="counter-section">
+        <div class="counter-container">
+            <div class="counter">
+
+                <div class="counter-number" data-to-value="501">0+</div>
+                <div class="counter-title">Clients</div>
+            </div>
+            <div class="counter">
+
+                <div class="counter-number" data-to-value="7">0th</div>
+                <div class="counter-title">Ranked</div>
+            </div>
+            <div class="counter">
+
+                <div class="counter-number" data-to-value="1000">0+</div>
+                <div class="counter-title">Projects</div>
+            </div>
+            <div class="counter">
+
+                <div class="counter-number" data-to-value="10">0</div>
+                <div class="counter-title">Years of Services</div>
+            </div>
+        </div>
+    </section>
+    <!-- Ranking End -->
+
+    <!-- Portfolio Start -->
+    <section class="Portfolio">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="info-div">
+                    <img src="images/einno-logo.png" alt="logo" width="180px">
+                    <p><strong>Atif Nadeem</strong></p>
+                    <p>Phone: +1(209)737-0590</p>
+                    <p>Email: info@einnovention.us</p>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-md-12 mb-4">
+                <div class="achievements-div">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="achievement-container">
+                                <h4>Einnovention</h4>
+                                <p>Expert In All Kind Of API Integration & Developing</p>
+                            </div>
+                            <ul class="rating">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li>4.9</li>
+                            </ul>
+                            <hr>
+                        </div>
+                        <div class="col-6">
+                            <div class="progress-container">
+                                <div class="progress-bar" data-value="95">
+                                    <div class="skill-title">Jobs Completed</div>
+                                    <div class="skill-track">
+                                        <div class="skill-fill"></div>
+                                        <div class="number-percentage">0%</div>
+                                    </div>
+                                </div>
+                                <div class="progress-bar" data-value="84">
+                                    <div class="skill-title">On Budget</div>
+                                    <div class="skill-track">
+                                        <div class="skill-fill"></div>
+                                        <div class="number-percentage">0%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="progress-container">
+                                <div class="progress-bar" data-value="83">
+                                    <div class="skill-title">On Time</div>
+                                    <div class="skill-track">
+                                        <div class="skill-fill"></div>
+                                        <div class="number-percentage">0%</div>
+                                    </div>
+                                </div>
+                                <div class="progress-bar" data-value="14">
+                                    <div class="skill-title">Repeat Hire Rate</div>
+                                    <div class="skill-track">
+                                        <div class="skill-fill"></div>
+                                        <div class="number-percentage">0%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio End -->
+
+    <!-- About Us Start -->
+    <section class="featured-area">
+        <div class="container">
+            <div id="featured">
+                <h1 class="display-4 about-heading">OUR KEY FEATURES</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="about-item">
+                        <div class="icon-text">
+                            <div class="icon_img">
+                                <img src="images/feature-1.png" alt="" class="icon" width="50px">
+                            </div>
+                            <span class="about-text"><strong>Client Centric Development</strong></span>
+                        </div>
+                        <div class="plus-minus-icon"></div>
+                    </div>
+                    <div class="about-content">
+                        <p>Einnovention Software Solution LLC is the best software development company in the USA that
+                            is
+                            focused on client-centric development. We provide web development, mobile app development,
+                            web
+                            designing, TV app development, and the best SEO for your business.</p>
+                    </div>
+                    <div class="about-item">
+                        <div class="icon-text">
+                            <div class="icon_img">
+                                <img src="images/feature-2.png" alt="" class="icon" width="50px">
+                            </div>
+                            <span class="about-text"><strong>Dedicated Development Team</strong></span>
+                        </div>
+                        <div class="plus-minus-icon"></div>
+                    </div>
+                    <div class="about-content">
+                        <p>The company keeps a responsible team that reassures quality of program for our valuable
+                            customer.
+                            Our
+                            expert team gives you excellent support and satisfaction.</p>
+                    </div>
+                    <div class="about-item">
+                        <div class="icon-text">
+                            <div class="icon_img">
+                                <img src="images/feature-3.png" alt="" class="icon" width="40px">
+                            </div>
+                            <span class="about-text"><strong>Excellent Support</strong></span>
+                        </div>
+                        <div class="plus-minus-icon"></div>
+                    </div>
+                    <div class="about-content">
+                        <p>We are assuring all-time customer support and satisfaction. Our technical experts are
+                            available
+                            24/7,
+                            helping you to build your business.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="about-item">
+                        <div class="icon-text">
+                            <div class="icon_img">
+                                <img src="images/feature-4.png" alt="" class="icon" width="50px">
+                            </div>
+                            <span class="about-text"><strong>Data Backups & Protection</strong></span>
+                        </div>
+                        <div class="plus-minus-icon"></div>
+                    </div>
+                    <div class="about-content">
+                        <p>Our technical team creates your project backups and provides complete safety to your private
+                            data,
+                            making clients confident and stress-free.</p>
+                    </div>
+                    <div class="about-item">
+                        <div class="icon-text">
+                            <div class="icon_img">
+                                <img src="images/feature-5.png" alt="" class="icon" width="50px">
+                            </div>
+                            <span class="about-text"><strong>Quality Deliverance</strong></span>
+                        </div>
+                        <div class="plus-minus-icon"></div>
+                    </div>
+                    <div class="about-content">
+                        <p>We believe in delivering the best software quality. Developers develop more efficient
+                            products
+                            according to customer specifications.</p>
+                    </div>
+                    <div class="about-item">
+                        <div class="icon-text">
+                            <div class="icon_img">
+                                <img src="images/feature-6.png" alt="" class="icon" width="50px">
+                            </div>
+                            <span class="about-text"><strong>Enhancement</strong></span>
+                        </div>
+                        <div class="plus-minus-icon"></div>
+                    </div>
+                    <div class="about-content">
+                        <p>Our expert team provides suggestions and improvements to enhance client confidence during the
+                            development phase.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us End -->
+
+    <!-- Services Start -->
+    <section class="services-area tp-services-two pb-120">
+        <div class="container">
+            <div class="services">
+
+                <div class="tp-section tp-section-two mb-50">
+                    <span class="tp-section-sub-title">Service We Are Offering</span>
+                    <h4 class="tp-section-title">We Provide Our Clients Best IT Service</h4>
+                </div>
+
+
+                <div class="tp-section mb-40">
+                    <div class="tp-section-title-wrapper">
+                        <p>We offer our clients excellent product development. Einnovention offers the best web
+                            development, designing, and mobile app development for valuable customers in the best
+                            manner.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="services-list">
+                <div class="service-item">
+                    <div class="tp-services-two-bg" style="background-image: url('images/webcms.webp')">
+                        <div class="tp-services-two-item">
+                            <div class="tp-services-two-head"><span>WEB AND CMS DEVELOPMENT</span></div>
+                            <p class="services-details">Einnovention Software Solution LLC facilitates its valuable
+                                clients by providing web development, designing and CMS development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="tp-services-two-bg" style="background-image: url('images/mobileapp.webp');">
+                        <div class="tp-services-two-item">
+                            <div class="tp-services-two-head"><span>MOBILE APP DEVELOPMENT</span></div>
+                            <p class="services-details">Expertise helps client business growth. We develop the best
+                                mobile app for users confidentially.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="tp-services-two-bg" style="background-image: url('images/fulstack.webp');">
+                        <div class="tp-services-two-item">
+                            <div class="tp-services-two-head"><span>FULL STACK DEVELOPMENT</span></div>
+                            <p class="services-details">At Einnovention our team of Developers skilled in a wide variety
+                                of coding niches, from databases to graphic design, scaling to maintenance in order to
+                                do their job well.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="tp-services-two-bg" style="background-image: url('images/IT.webp');">
+                        <div class="tp-services-two-item">
+                            <div class="tp-services-two-head"><span>IT SERVICES</span></div>
+                            <p class="services-details">Modern cloud-based system Einnovention software solution LLC
+                                Company in the USA offers professionall, operational and efficient IT services to the
+                                valuable customer and provided 100% satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services End -->
+
+<!-- Testimonials Start -->
+<section class="testimonial-area">
+    <div class="testimonial-container">
+        <div class="row testimonial">
+         
+            <div class="col-lg-4 test-col">
+                <div class="testimonial-intro">
+                    <span class="section-sub-title">Our Happy Clients</span>
+                    <h4 class="section-title">What They’re Saying About Our Tecz</h4>
+                    <p class="section-content">System is a term used to refer to an organized collection of symbols and processes...</p>
+                    <a class="section-btn" href="testimonial.html">All Testimonials</a>
+                </div>
+            </div>
+            <div class="col-lg-8 test-col">
+                <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                  
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                        <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                        <li data-target="#testimonialCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                    
+                        <div class="carousel-item active">
+                            <div class="testimonial-card">
+                                <img src="images/testimonial-avater-1.jpg" alt="Avatar 1" class="testimonial-avatar">
+                                <h5>Angali</h5>
+                                <p class="test-content">"Great work, Great Team, He delivered, and I would recommend Einnovention to anyone. He converted my dream works to reality. They were really considerable with their price, and I'm comfortable with Him."</p>
+                            </div>
+                        </div>
+
+                     
+                        <div class="carousel-item">
+                            <div class="testimonial-card">
+                                <img src="images/testimonial-avater-2.jpg" alt="Avatar 2" class="testimonial-avatar">
+                                <h5>Berline</h5>
+                                <p class="test-content">"In the beginning, it was supposed to be a simple MySQL query problem, but it became a bigger issue. He worked on the obstacles and resolved the problem in less than 24H. Excellent work, professionalism, and great communication."</p>
+                            </div>
+                        </div>
+
+                      
+                        <div class="carousel-item">
+                            <div class="testimonial-card">
+                                <img src="images/testimonial-avater-3.jpg" alt="Avatar 3" class="testimonial-avatar">
+                                <h5>Sean</h5>
+                                <p class="test-content">"Awesome to work with. Very responsive and professional. Turnaround time was quoted 7 days, they delivered in two."</p>
+                            </div>
+                        </div>
+
+                       
+                        <div class="carousel-item">
+                            <div class="testimonial-card">
+                                <img src="images/testimonial-avater-4.jpg" alt="Avatar 4" class="testimonial-avatar">
+                                <h5>Osku</h5>
+                                <p class="test-content">"Einnovention always goes above and beyond in delivering their services. We've worked with them for several years and are always happy to return with new challenges."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Testimonials End -->
+
+    <!-- Contact Form Start -->
+    <div class="contact-form">
+        <form>
+            <h1>Free Consultation Session</h1>
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="mobile" placeholder="Phone Number" required>
+            <input type="text" id="companyName" placeholder="Company Name" required>
+            <input type="text" id="projectType" placeholder="Project Type" required>
+            <h4>Message...</h4>
+            <textarea required></textarea>
+            <input type="submit" value="SEND" id="formBtn">
+        </form>
+    </div>
+    <!-- Contact Form End -->
+
+    <!-- Companies Logo Carousal Start -->
+<div class="company-logo-carousel">
+    <div class="company-carousel-inner">
+        <div class="company-logo-item">
+            <img src="images/polos-co-uk.webp" alt="Company Logo 1" width="180px">
+        </div>
+        <div class="company-logo-item">
+            <img src="images/roy.webp" alt="Company Logo 2" width="180px">
+        </div>
+        <div class="company-logo-item">
+            <img src="images/itronics.webp" alt="Company Logo 3" width="180px">
+        </div>
+        <div class="company-logo-item">
+            <img src="images/shoe-timestore.webp" alt="Company Logo 4" width="180px">
+        </div>
+        <div class="company-logo-item">
+            <img src="images/shoe-fad.webp" alt="Company Logo 5"  height="60px">
+        </div>
+        <div class="company-logo-item">
+            <img src="images/EID.webp" alt="Company Logo 5" width="180px">
+        </div>
+    </div>
+</div>
+    <!-- Companies Logo Carousal End -->
+    
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col">
+                <img src="images/logo-white.png" class="footer-logo" alt="logo">
+                <p>We believe in the power of technology to drive real results and make real business impact.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Page Links <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter <div class="underline"><span></span></div>
+                </h3>
+                <form>
+                    <i class="fa-solid fa-envelope fa-envelope-icon"></i>
+                    <input type="email" placeholder="Enter your email address..." required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right fa-arrow-icon"></i></button>
+                </form>
+                <div class="footer-social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center offices">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="office">
+                                <div class="office-row d-flex">
+                                    <div class="office-img">
+                                        <img src="images/usa.webp" alt="" width="60px">
+                                    </div>
+                                    <div class="office-info">
+                                        <h4>USA OFFICE</h4>
+                                        <p>5901 Chase Rd, Ste MI 48126</p>
+                                        <p>+1 (209) 737-0590</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="office">
+                                <div class="office-row d-flex">
+                                    <div class="office-img">
+                                        <img src="images/uk.webp" alt="" width="60px">
+                                    </div>
+                                    <div class="office-info">
+                                        <h4>UK OFFICE</h4>
+                                        <p>Kent, United Kingdom</p>
+                                        <p>+44-7739-227796</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="office">
+                                <div class="office-row d-flex">
+                                    <div class="office-img">
+                                        <img src="images/saudi-arabia.png" alt="" width="60px">
+                                    </div>
+                                    <div class="office-info">
+                                        <h4>SAUDIA OFFICE</h4>
+                                        <p>Ulimaniyah Street 8407</p>
+                                        <p>+966-580544559</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="office">
+                                <div class="office-row d-flex">
+                                    <div class="office-img">
+                                        <img src="images/pak.webp" alt="" width="60px">
+                                    </div>
+                                    <div class="office-info">
+                                        <h4>PAKISTAN OFFICE</h4>
+                                        <p>Central Plaza, New Garden Town, Lahore</p>
+                                        <p>+92-3214043374</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.8435766150783!2d74.31952427423069!3d31.500983148102065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190471807bab0b%3A0xee85f2a79cdcc885!2sEinnovention%20Web%20Design%20Company!5e0!3m2!1sen!2s!4v1728844069772!5m2!1sen!2s"
+                    width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright © 2024. All rights reserved.</p>
+    </footer>
+    <!-- Footer End -->
+
+
+
+    <!-- Bootstraps Compiled JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS   -->
+    <script src="script.js"></script>
+</body>
+
+</html>
